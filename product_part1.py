@@ -10,7 +10,8 @@ def show_product(product_list):
     for key in product_list.keys():
         print(key +" : " + str(product_list[key]))
 
-add_product(product_list, "Snack", 10)
-add_product(product_list, "Drink", 20)
-add_product(product_list, "Snack", 10)
+add_product(product_list, "Coaca Cola", 40)
+add_product(product_list, "Lay", 20)
+add_product(product_list, "Cheese", 50)
+add_product(product_list, "Lay", 10)
 show_product(product_list)
